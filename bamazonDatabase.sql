@@ -19,6 +19,6 @@ VALUES ("Bread", "Food", 6, 100),
         ("Wintel 11 CPU", "Electronics", 230, 150),
         ("Alligator", "Pets", 128, 50),
         ("Sneakers", "Clothing", 25, 200),
-        ("Rocket Proppeled Grenade launcher", "Home Defense", 400, 25),
+        ("Rocket Proppeled Grenade", "Home Defense", 400, 25),
         ("Respirator", "Outdoors", 130, 60),
         ("Hair brush", "Hygiene", 8, 200);
