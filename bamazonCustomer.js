@@ -55,10 +55,8 @@ function shopping() {
 
 //function to check if there is enough of the desired item in stock and if so, removes that amount and displays the cost
 function purchase(itemId, neededQuant) {
-    console.log(itemId)
     connection.query(`SELECT * FROM products WHERE id = ${itemId}`, function (err, res) {
         if (err) throw err;
-        console.log(res)
         if(res[0].stock_quantity < neededQuant) {
             console.log("Insufficient stock! Sorry. Please check again.")
         } else {
